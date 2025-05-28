@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID-HUB Backup Server</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            text-align: center;
+            padding: 2rem;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 300px;
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, #00ddeb 0%, #007bff 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-4xl font-bold mb-6">ID-HUB Backup Server</h1>
+    <p class="text-lg mb-8">Primary site is down. Download games from our backup server below.</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Add your game files here -->
+        <div class="card">
+            <h4 class="text-xl font-semibold text-white">[App ID] - [Game Name]</h4>
+            <a href="[Google Drive Direct Download Link]" class="btn-primary">Download</a>
+        </div>
+        <!-- Repeat for each game file -->
+    </div>
+</body>
+</html>
